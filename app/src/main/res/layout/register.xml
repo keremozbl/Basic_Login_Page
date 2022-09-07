@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="50dp"
+        android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        android:background="@drawable/custom_txt"
+        android:padding="15dp"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/login_passw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:background="@drawable/custom_txt"
+        android:padding="15dp"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/login_passw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password (again)"
+        android:background="@drawable/custom_txt"
+        android:padding="15dp"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createAcc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="12dp">
+    </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

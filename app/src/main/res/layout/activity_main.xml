@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:layout_weight="1"
+    android:paddingTop="99dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profilo" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center_horizontal">
+
+
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_txt"
+        android:drawableStart="@drawable/custom_vector_email"
+        android:drawablePadding="5sp"
+        android:ems="10"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="10dp">
+                </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/passw_txt"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/custom_vector_lock"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_txt"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="110dp"
+            android:layout_height="39dp"
+            android:text="Login" />
+
+        <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="0dp">
+                 </LinearLayout>
+
+         <Button
+        android:id="@+id/register_btn"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:text="REGISTER" />
+
+         </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
